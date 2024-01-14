@@ -136,9 +136,6 @@ public class SearchShortestPath {
             // as an iterable of edges, and {@code null} if no such path
             for (DirectedEdge e : sp.pathTo(destPlace)) {
                 String[] data = this.busInfo.get(this.placeWithBusID.get(e.to()));
-                // System.out.println("Bus stop id: " + this.placeWithBusID.get(e.to()) +
-                // "\tName: " + data[2] // e.to() is a head vertex represented by place.
-                // + "\t Cost from " + this.placeWithBusID.get(e.from()) + ": " + e.weight());
                 System.out.printf("Bus stop id: %-8d Name: %-40s Cost from %-5d: %.2f%n",
                 this.placeWithBusID.get(e.to()), // e.to() is a head vertex represented by place.
                 data[2], this.placeWithBusID.get(e.from()), e.weight());

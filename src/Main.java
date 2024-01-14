@@ -123,7 +123,6 @@ class Main {
                 try {
                     prefix = prefix.toUpperCase();
                     if (sbs.searchBusStop(prefix)) {
-                        // found = true;
                         sbs.outputBusStopInfo();
                     }
                 } catch (Exception e) {
@@ -137,7 +136,6 @@ class Main {
 
     public static void searchArrivalTime() {
 
-        // boolean validInput = false;
         boolean finished = false;
         while (!finished) {
             System.out.println(
@@ -153,10 +151,7 @@ class Main {
             } else {
                 try {
                     Date userDate = timeFormat.parse(userInput);
-                    // if (
                     SearchArrivalTime.output(userInput, dateFormat);
-                    // )
-                    // validInput = true;
                 } catch (Exception e) {
                     {
                         System.out.println("Invalid input.\n");
