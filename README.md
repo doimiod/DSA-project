@@ -82,7 +82,7 @@ A picture above is an interface of main menu. As it is displayed 0 for exit, 1 f
   <img src="https://github.com/doimiod/DSA-project/blob/main/demo/mainError.gif" />
 </p>
 
-And a demo shoes that if user types strings it will ask them to put an interger, and even if an integer is input but not 0 ~ 3, the user will be prompted to enter proper input.
+And a demo above shows that if user types strings it will ask them to put an interger, and even if an input is an integer but not 0 ~ 3, the user will be prompted to enter proper input.
 
 ### 1st functionality error handling
 
